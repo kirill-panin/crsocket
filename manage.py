@@ -5,7 +5,7 @@ import time
 
 #sel = selectors.DefaultSelector()
 serv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-serv.bind(("185.253.218.233", 5001))
+serv.bind(("", 5001))
 #serv.bind(("192.168.1.13", 62222))
 serv.listen()
 #serv.setblocking(False)
